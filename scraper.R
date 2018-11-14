@@ -50,6 +50,6 @@ for (i in seq_along(url)){
 }
 
 #create dataframe
-df <- do.call(rbind, my_list)
+df <- do.call(rbind, df_list)
 
 
